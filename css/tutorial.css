@@ -1,0 +1,48 @@
+.tutorial {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: hsl(0, 0%, 97%);
+    border-top: 4px solid hsl(0, 0%, 90%);
+    height: 105px;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Avenir';
+}
+
+.tutorial-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.tutorial-apply {
+    padding: 10px;
+    border: transparent;
+    background-color: #36a513;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 10px;    
+    outline: none;
+}
+
+.tutorial-apply:active {
+    background-color: #287b0e;
+}
+
+a.tutorial-back {
+    color: hsla(0,0%,67%,1);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.tutorial-description {
+    color: #949494;
+    margin-bottom: 10px;
+    font-size: 13px;
+    height: 36px;
+}
